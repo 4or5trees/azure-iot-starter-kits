@@ -175,7 +175,7 @@ Save the file.
 
     `docker login {registry name}.azurecr.io -u {user name} -p {password}`
 
-1. Build your modules: In VS Code Explorer, right click the `deployment.template.json` file and select `Build Iot Edge Solution`. This will build the modules in the solution, create images from them, and push them to your registry.
+1. Build your modules: In VS Code Explorer, right click the `deployment.template.json` file and select `Build and Push Iot Edge Solution`. This will build the modules in the solution, create images from them, and push them to your registry.
 
     **NOTE**: The first time you build the project the base image must be downloaded, which can take several minutes. Subsequent builds will take only a matter of seconds.
 
