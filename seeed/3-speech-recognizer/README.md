@@ -33,7 +33,7 @@ In this project, your Raspberry Pi 3 will be configured as an Azure IoT Edge dev
 After attaching the above components you will boot the Raspberry Pi 3, enable SSH connectivity, and enable the OLED interface. Step-by-step instructions are below.
 
 ### Physical assembly
-
+**NOTE**: **Never** plug or unplug components while the Raspberry Pi is still connected to a power source. Always do a safe shutdown (`sudo shutdown now` for immediate shutdown), wait 30 seconds and disconnect the Raspberry Pi from the power source. 
 1. Remove Raspberry Pi 3 (including USB/micro USB power cable) and micro SD card from packaging.
 1. Insert the micro SD card into micro SD card port on the Raspberry Pi 3.
 1. Attach the keyboard (via one of the USB ports) and monitor (via HDMI port) to the Raspberry Pi 3.
