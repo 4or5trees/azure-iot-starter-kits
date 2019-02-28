@@ -88,13 +88,20 @@ You may use your Raspberry Pi 3 with WiFi only, Ethernet only, or both WiFi and 
 
 1. Press `ESC` to exit raspi-config.
 
+1. Use nano or vi to edit /etc/hostapd/hostapd.conf:
+
+   `sudo nano /etc/hostapd/hostapd.conf`
+   
+   Make the SSID unique by adding a number, e.g.  
+       - SSID : `SeeedGroveKit12`
+
 1. Reboot:
 
     `sudo shutdown -r now`
 
 1. Once the reboot is complete, check that the Wi-Fi network is visible.
     - Search for wireless networks using your laptop.
-        - SSID : `SeeedGroveKit`
+        - SSID : `SeeedGroveKit12`
         - Passphrase : `SeeedGroveKit`
 
 
