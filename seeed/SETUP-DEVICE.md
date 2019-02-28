@@ -100,7 +100,7 @@ You may use your Raspberry Pi 3 with WiFi only, Ethernet only, or both WiFi and 
 
 ## Rebuilding Raspbian Settings
 
-In case you need to rebuild your Raspberry Pi 3 with Raspbian, you need to download and install Raspbinan Stretech Lite
+In case you need to rebuild your Raspberry Pi 3 with Raspbian, you need to download and install Raspbinan Stretch Lite
 
 - Download Raspbian Stretch Lite [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/).
     
