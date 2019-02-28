@@ -28,7 +28,7 @@ In this project, your Raspberry Pi 3 will be configured as an Azure IoT Edge dev
 - Keyboard and monitor
 - Grove - Temp & Humidity & Barometer Sensor (BME280)
 - ReSpeaker 4-Mic Array for Raspberry Pi
-- A 5V Power Supplly with Micro USB interface
+- A 5V Power Supply with Micro USB interface
 
 After attaching the above components you will boot the Raspberry Pi 3 and enable the barometer interface. Step-by-step instructions are below.
 
