@@ -93,7 +93,7 @@ You may use your Raspberry Pi 3 with WiFi only, Ethernet only, or both WiFi and 
    `sudo nano /etc/hostapd/hostapd.conf`
    
    Make the SSID unique by adding a number, e.g.  
-       - SSID : `SeeedGroveKit12`
+      - SSID : `SeeedGroveKit12`
 
 1. Reboot:
 
