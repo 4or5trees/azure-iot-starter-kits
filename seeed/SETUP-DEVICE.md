@@ -142,4 +142,4 @@ In addition to steps above, you need to enable additional interfaces.
     - Select the appropriate values from the following screens, e.g. 'English (US)', pressing `ENTER` on each screen to make a selection
 1. Press `ESC` to exit raspi-config.
 
-Once you complete steps described above, follow the instruction in the begineeing of this document.
+Once you complete steps described above, follow the instruction in the beginning of this document.
