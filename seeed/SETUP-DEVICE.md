@@ -89,19 +89,26 @@ You may use your Raspberry Pi 3 with WiFi only, Ethernet only, or both WiFi and 
 
 1. Press `ESC` to exit raspi-config.
 
+1. Use nano or vi to edit /etc/hostapd/hostapd.conf:
+
+   `sudo nano /etc/hostapd/hostapd.conf`
+   
+   Make the SSID unique by adding a number, e.g.  
+      - SSID : `SeeedGroveKit12`
+
 1. Reboot:
 
     `sudo shutdown -r now`
 
 1. Once the reboot is complete, check that the Wi-Fi network is visible.
     - Search for wireless networks using your laptop.
-        - SSID : `SeeedGroveKit`
+        - SSID : `SeeedGroveKit12`
         - Passphrase : `SeeedGroveKit`
 
 
 ## Rebuilding Raspbian Settings
 
-In case you need to rebuild your Raspberry Pi 3 with Raspbian, you need to download and install Raspbinan Stretch Lite
+In case you need to rebuild your Raspberry Pi 3 with Raspbian, you need to download and install Raspbian Stretch Lite
 
 - Download Raspbian Stretch Lite [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/).
     
@@ -143,4 +150,8 @@ In addition to steps above, you need to enable additional interfaces.
     - Select the appropriate values from the following screens, e.g. 'English (US)', pressing `ENTER` on each screen to make a selection
 1. Press `ESC` to exit raspi-config.
 
+<<<<<<< HEAD
 Once you complete steps described above, follow the instruction in the beginning of this document.
+=======
+Once you complete steps described above, follow the instruction in the beginning of this document.
+>>>>>>> a55c3d2f1c46155fed88674bd94495c7a74aca25

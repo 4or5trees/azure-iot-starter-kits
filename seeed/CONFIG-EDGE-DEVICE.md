@@ -12,7 +12,7 @@ For a video overview of these steps, see [Configuring your device as an Azure Io
 
     `az account set --subscription <subscription Name or ID>`
 
-1. Use the Azure IoT Starter Kit companion CLI to configure your device:
+1. Check the **NOTES on IOT CLI usage** at the bottom of this page, ensure everything is set up correctly and then use the Azure IoT Starter Kit companion CLI to configure your device:
 
     `iot configure-device`
 

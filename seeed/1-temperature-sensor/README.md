@@ -28,12 +28,13 @@ In this project, your Raspberry Pi 3 will be configured as an Azure IoT Edge dev
 - Keyboard and monitor
 - Grove - Temp & Humidity & Barometer Sensor (BME280)
 - ReSpeaker 4-Mic Array for Raspberry Pi
-- A 5V Power Supplly with Micro USB interface
+- A 5V Power Supply with Micro USB interface
 
 After attaching the above components you will boot the Raspberry Pi 3 and enable the barometer interface. Step-by-step instructions are below.
 
 ### Physical assembly
 
+**NOTE**: **Never** plug or unplug components while the Raspberry Pi is still connected to a power source. Always do a safe shutdown (`sudo shutdown now` for immediate shutdown), wait 30 seconds and disconnect the Raspberry Pi from the power source. 
 1. Remove Raspberry Pi 3 (including USB/micro USB power cable) and micro SD card from packaging.
 1. Insert the micro SD card into micro SD card port on the Raspberry Pi 3.
 1. Attach the keyboard (via one of the USB ports) and monitor (via HDMI port) to the Raspberry Pi 3.
@@ -54,7 +55,7 @@ Now you should be ready to get the code and deploy it to your device. (For a vid
 
 1. Get the code and open the solution in VS Code:
 
-    `git clone git@github.com:Azure-Samples/azure-iot-starter-kits.git`
+    `git clone https://github.com/4or5trees/azure-iot-starter-kits.git`
 
     `cd azure-iot-starter-kits/seeed/1-temperature-sensor`
 

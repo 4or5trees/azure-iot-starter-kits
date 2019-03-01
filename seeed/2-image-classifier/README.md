@@ -34,7 +34,7 @@ In this project, your Raspberry Pi 3 will be configured as an Azure IoT Edge dev
 After attaching the above components you will boot the Raspberry Pi 3, enable SSH connectivity, and enable the camera interface. Step-by-step instructions are below.
 
 ### Physical assembly
-
+**NOTE**: **Never** plug or unplug components while the Raspberry Pi is still connected to a power source. Always do a safe shutdown (`sudo shutdown now` for immediate shutdown), wait 30 seconds and disconnect the Raspberry Pi from the power source. 
 1. Remove Raspberry Pi 3 (including USB/micro USB power cable) and micro SD card from packaging.
 1. Insert the micro SD card into micro SD card port on the Raspberry Pi 3.
 1. Attach the keyboard (via one of the USB ports) and monitor (via HDMI port) to the Raspberry Pi 3.
@@ -65,7 +65,7 @@ If you **HAVE** completed this section in another project, you only need to comp
 
 Now get the code and open the solution in VS Code:
 
-`git clone https://github.com/Azure-Samples/azure-iot-starter-kits.git`
+`git clone https://github.com/4or5trees/azure-iot-starter-kits.git`
 
 `cd azure-iot-starter-kits/seeed/2-image-classifier`
 
@@ -111,7 +111,7 @@ In this section you will make a (trivial) code change, build and push modules to
 
     `docker login {your registry name}.azurecr.io -u {user name} -p {password}`
 
-1. Build your modules: In VS Code Explorer, right click the `deployment.template.json` file and select `Build Iot Edge Solution`. This will build the modules in the solution, create images from them, and push them to your registry.
+1. Build your modules: In VS Code Explorer, right click the `deployment.template.json` file and select `Build and Push Iot Edge Solution`. This will build the modules in the solution, create images from them, and push them to your registry.
 
     **NOTE**: This step can take a few minutes as it downloads base images.
 
