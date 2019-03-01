@@ -39,6 +39,7 @@ After attaching the above components you will boot the Raspberry Pi 3, enable SS
 1. Attach the keyboard (via one of the USB ports) and monitor (via HDMI port) to the Raspberry Pi 3.
 1. Remove ReSpeaker 4-Mic Array for Raspberry Pi from its packaging and attach it to the Raspberry Pi 3 via the 40-Pin Headers along the top edge of the board.
 1. Remove the OLED Display from its packing and attach it (via its attached cord) to the port labeled `I2C` on the ReSpeaker 4-Mic Array for Raspberry Pi.
+1. Remove the Button from its packaging and attach it (via its attached cord) to the port labeled `GP12` on the ReSpeaker 4-Mic Array for Raspberry Pi. 
 
 ### Setup device
 
