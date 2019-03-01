@@ -7,9 +7,9 @@ You may use your Raspberry Pi 3 with WiFi only, Ethernet only, or both WiFi and 
 
 * Using Eternet  
 
-    **NOTE**: Please make sure your netowrk address is not 192.168.4.x subnet.  The Raspberry Pi 3 is preconfigured with 192.168.4.1 WiFi Access Point.  
+    **NOTE**: Please make sure your network address is not 192.168.4.x subnet.  The Raspberry Pi 3 is pre-configured with 192.168.4.1 WiFi Access Point.  
 
-    When boot is complete, you can see IP Address of your Raspberry Pi 3 on the screen.
+    When boot is complete, you can see the IP Address of your Raspberry Pi 3 on the screen.
     
     Example
 
@@ -24,6 +24,7 @@ You may use your Raspberry Pi 3 with WiFi only, Ethernet only, or both WiFi and 
         raspberrypi login:  
 
     You can also find the IP address of the device, run `ifconfig` on the device and look for the IP address of the `wlan0` interface for WiFi and the `eth0` interface for Ethernet. (You should be able to SSH to the device using this address and the default Raspberry Pi 3 credentials.)
+    Tip: You can pass the name of the interface you're looking for as an argument. For example `ifconfig wlan0`.
 
     Example
     IP address of the Ethernet is 192.168.1.10
@@ -60,7 +61,7 @@ You may use your Raspberry Pi 3 with WiFi only, Ethernet only, or both WiFi and 
 
 * Using WiFi 
 
-    You can specify your SSID and passphase later with the Azure IoT Starter Kit companion CLI
+    You can specify your SSID and passphase later with the Azure IoT Starter Kit companion CLI.
 
 ## Enable interfaces
 
@@ -100,7 +101,7 @@ You may use your Raspberry Pi 3 with WiFi only, Ethernet only, or both WiFi and 
 
 ## Rebuilding Raspbian Settings
 
-In case you need to rebuild your Raspberry Pi 3 with Raspbian, you need to download and install Raspbinan Stretech Lite
+In case you need to rebuild your Raspberry Pi 3 with Raspbian, you need to download and install Raspbinan Stretch Lite
 
 - Download Raspbian Stretch Lite [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/).
     
@@ -142,4 +143,4 @@ In addition to steps above, you need to enable additional interfaces.
     - Select the appropriate values from the following screens, e.g. 'English (US)', pressing `ENTER` on each screen to make a selection
 1. Press `ESC` to exit raspi-config.
 
-Once you complete steps described above, follow the instruction in the begineeing of this document.
+Once you complete steps described above, follow the instruction in the beginning of this document.
