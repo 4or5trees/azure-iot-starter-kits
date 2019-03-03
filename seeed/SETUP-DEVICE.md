@@ -5,7 +5,7 @@ Instructions below assume that you have completed the physical assembly of your 
 ## Network setting
 You may use your Raspberry Pi 3 with WiFi only, Ethernet only, or both WiFi and Ethernet.
 
-* Using Eternet  
+* Using Ethernet  
 
     **NOTE**: Please make sure your network address is not 192.168.4.x subnet.  The Raspberry Pi 3 is pre-configured with 192.168.4.1 WiFi Access Point.  
 
