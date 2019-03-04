@@ -97,12 +97,6 @@ In this section you will make a (trivial) code change, build and push modules to
 
     Save the file.
 
-1. Edit the `module.json` file for each of the 3 project modules: Replace the public registry name with your registry name. For example, in the `camera-capture` module, update the following line in the `module.json` file:
-
-    `"repository": "{your registry name}.azurecr.io/azureiotedge-seeed-camera-capture"`
-
-    Be sure to save each file.
-
 1. Sign into your Azure Container Registry (ACR): Run the following command _in the VS Code terminal window_:
 
     `az acr credential show --name {your registry name} --resource-group {your resource group name}`
